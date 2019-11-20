@@ -1,0 +1,38 @@
+body {
+    font-family: 'Kaushan Script', cursive;
+    header {
+        nav {
+            img {
+                width: 25%;
+            }
+        .navbar-brand {
+            font-family: 'Alata', sans-serif;
+            }
+        }
+    }
+}
+
+section .bottom {
+    h1 {
+        width: 50%;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+       }
+}
+
+main {
+    card{
+        border: black 1px;
+    }
+    card:nth-child(odd) {
+        background-color: black;
+    }
+    .pictures{
+        img {
+            border-radius: 2px;
+        }
+    }
+
+}
